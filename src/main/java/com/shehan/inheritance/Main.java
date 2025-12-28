@@ -9,6 +9,7 @@ public class Main {
 
 
         BoxWeight box3 = new BoxWeight();
+        BoxWeight box4 = new BoxWeight(2,3,4,8);
         System.out.println(box3.height + " " + box3.weight);
     }
 }

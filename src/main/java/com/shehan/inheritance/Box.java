@@ -2,7 +2,7 @@ package com.shehan.inheritance;
 
 public class Box {
 
-    double length;
+    private double length;
     double width;
     double height;
 
