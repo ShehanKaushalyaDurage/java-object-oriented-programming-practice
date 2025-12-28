@@ -10,6 +10,18 @@ public class BoxWeight extends Box {
         this.weight = 1;
     }
 
+    BoxWeight (BoxWeight other) {
+        super(other);
+        this.weight = other.weight;
+
+        //Step-by-step:
+        //Memory is allocated for the other object
+        //BoxWeight(BoxWeight other) constructor is called
+        //First line → super(other)
+        //Box(Box box) constructor is called
+        //Parent variables are copied:
+    }
+
     public BoxWeight(double width, double height, double length, double weight) {
         super(width, height, length);// what is this? call the parent class contractor
         //used to initialise values present in parent class
