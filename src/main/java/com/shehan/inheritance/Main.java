@@ -16,6 +16,7 @@ public class Main {
         System.out.println(box5.width);
         //System.out.println(box5.weight); //Reference type = Box
         //Box class does not have a weight variable
+        //The reference type decides which members are accessible
 
         // there are many variables in both parent and child classes
         // you are given access to variables that are in the ref type i.e boxWeight

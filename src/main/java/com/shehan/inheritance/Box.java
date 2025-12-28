@@ -15,6 +15,11 @@ public class Box {
 
     //cube
     Box(double side) {
+
+        //Class Object is the root of the class hierarchy.
+        //Every class has Object as a superclass.
+        super();
+
         this.length = side;
         this.width = side;
         this.height = side;
