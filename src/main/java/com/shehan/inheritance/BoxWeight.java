@@ -1,10 +1,10 @@
 package com.shehan.inheritance;
 
-public class BoxWeight extends Box{
+public class BoxWeight extends Box {
 
     double weight;
 
-    public BoxWeight(){
+    public BoxWeight() {
         this.weight = 1;
     }
 

@@ -7,32 +7,32 @@ public class Box {
     double height;
 
 
-    Box(){
+    Box() {
         this.length = -1;
         this.width = -1;
         this.height = -1;
     }
 
     //cube
-    Box(double side){
+    Box(double side) {
         this.length = side;
         this.width = side;
         this.height = side;
     }
 
-    Box(double width, double height, double side){
+    Box(double width, double height, double side) {
         this.length = width;
         this.width = width;
         this.height = height;
     }
 
-    Box(Box box){
+    Box(Box box) {
         this.length = box.length;
         this.width = box.width;
         this.height = box.height;
     }
 
-    public void information(){
+    public void information() {
         System.out.println("Running the box");
     }
 }
