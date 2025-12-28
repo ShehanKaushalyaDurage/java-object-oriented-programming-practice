@@ -18,7 +18,7 @@ public class Box {
 
         //Class Object is the root of the class hierarchy.
         //Every class has Object as a superclass.
-        super();
+        //super();
 
         this.length = side;
         this.width = side;
