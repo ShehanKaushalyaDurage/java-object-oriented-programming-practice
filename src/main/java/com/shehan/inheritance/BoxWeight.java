@@ -14,8 +14,8 @@ public class BoxWeight extends Box {
         super(width, height, length);// what is this? call the parent class contractor
         //used to initialise values present in parent class
 
-        System.out.println(super.width);
+        //System.out.println(super.width);//Parent class variable named width
 
-        this.weight = weight;
+        this.weight = weight; //Child class variable (BoxWeight.weight)
     }
 }
