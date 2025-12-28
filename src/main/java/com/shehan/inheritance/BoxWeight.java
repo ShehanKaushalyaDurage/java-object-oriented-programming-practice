@@ -1,5 +1,7 @@
 package com.shehan.inheritance;
 
+//Inheritance is done using the extends keyword
+//It represents an IS-A relationship
 public class BoxWeight extends Box {
 
     double weight;
