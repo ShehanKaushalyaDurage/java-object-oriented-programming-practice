@@ -29,12 +29,14 @@ public class Main {
         //System.out.println(box6.width);
         //Compile-time error
 
+        //BoxPrice reference sees everything → no error
         //No errors, because BoxPrice is the lowest child, so it sees everything above it.
         //BoxPrice boxPrice = new BoxPrice();
         //boxPrice.weight();
         //boxPrice.cost();
         //boxPrice.box();
 
+        //Box reference knows only Box → child methods invisible
         //Reference type decides what you can access
         //Box box = new Box();
         //box.box();//box() method is defined in Box
@@ -42,6 +44,7 @@ public class Main {
         //box.cost();
         //box.weight();
 
+        //BoxWeight reference knows up to BoxWeight, not BoxPrice
         //BoxWeight boxWeight = new BoxWeight();
         //boxWeight.box();
         //boxWeight.weight();
