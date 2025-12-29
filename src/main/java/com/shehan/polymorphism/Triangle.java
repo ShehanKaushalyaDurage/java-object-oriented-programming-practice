@@ -4,6 +4,7 @@ package com.shehan.polymorphism;
 public class Triangle extends Shapes{
 
     //This is method overriding
+    @Override
     void area(){
         System.out.println("Area of Triangle");
     }
