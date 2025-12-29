@@ -29,8 +29,25 @@ public class Main {
         //System.out.println(box6.width);
         //Compile-time error
 
+        //No errors, because BoxPrice is the lowest child, so it sees everything above it.
+        //BoxPrice boxPrice = new BoxPrice();
+        //boxPrice.weight();
+        //boxPrice.cost();
+        //boxPrice.box();
 
-        BoxPrice boxPrice = new BoxPrice();
+        //Reference type decides what you can access
+        //Box box = new Box();
+        //box.box();//box() method is defined in Box
+        //“Box doesn’t know anything about cost() or weight()”
+        //box.cost();
+        //box.weight();
+
+        //BoxWeight boxWeight = new BoxWeight();
+        //boxWeight.box();
+        //boxWeight.weight();
+        //boxWeight.cost();//cost() exists only in BoxPrice,BoxWeight reference cannot see child methods
+
+        // * Important = Parent reference cannot access child-specific methods
 
     }
 }

@@ -6,6 +6,9 @@ public class Box {
     double width;
     double height;
 
+    void box(){
+        System.out.println("Box Box is: " + this.length + " " + this.width + " " + this.height);
+    }
 
     Box() {
         this.length = -1;

@@ -6,6 +6,10 @@ public class BoxWeight extends Box {
 
     double weight;
 
+    void weight() {
+        System.out.println("Box Weight is: " + this.weight);
+    }
+
     public BoxWeight() {
         this.weight = 1;
     }

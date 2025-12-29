@@ -4,6 +4,10 @@ public class BoxPrice extends BoxWeight{
 
     double cost;
 
+    void cost(){
+        System.out.println("Box Cost is: " + this.cost);
+    }
+
     public BoxPrice(){
         super();
         this.cost = -1;
