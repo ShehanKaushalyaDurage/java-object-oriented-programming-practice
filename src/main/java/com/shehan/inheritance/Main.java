@@ -12,8 +12,8 @@ public class Main {
 //        BoxWeight box4 = new BoxWeight(2,3,4,8);
 //        System.out.println(box3.height + " " + box3.weight);
 
-        Box box5 = new BoxWeight(2,2,2,3); //A child object can be referred to by a parent reference
-        System.out.println(box5.width);
+//        Box box5 = new BoxWeight(2,2,2,3); //A child object can be referred to by a parent reference
+//        System.out.println(box5.width);
         //System.out.println(box5.weight); //Reference type = Box
         //Box class does not have a weight variable
         //The reference type decides which members are accessible
@@ -28,5 +28,9 @@ public class Main {
         //BoxWeight box6 = new Box(2,2,2);
         //System.out.println(box6.width);
         //Compile-time error
+
+
+        BoxPrice boxPrice = new BoxPrice();
+
     }
 }

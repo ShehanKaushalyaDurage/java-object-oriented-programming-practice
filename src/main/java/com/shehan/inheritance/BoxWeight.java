@@ -22,6 +22,11 @@ public class BoxWeight extends Box {
         //Parent variables are copied:
     }
 
+    BoxWeight (double side,double weight) {
+        super(side);
+        this.weight = weight;
+    }
+
     public BoxWeight(double width, double height, double length, double weight) {
         super(width, height, length);// what is this? call the parent class contractor
         //used to initialise values present in parent class
