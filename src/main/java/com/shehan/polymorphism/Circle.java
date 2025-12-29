@@ -1,4 +1,7 @@
 package com.shehan.polymorphism;
 
-public class Circle {
+public class Circle extends Shapes{
+    void area(){
+        System.out.println("Area of Circle");
+    }
 }
