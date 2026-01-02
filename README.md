@@ -249,7 +249,7 @@ Object-Oriented Programming is about modeling real-world behavior using objects 
 ---
 
 ## Author
-Shehan Kaushalya
+[What is Object-Oriented Programming (OOP)?](#what-is-object-oriented-programming-oop)
 
 Software Engineer | Java & Spring Boot Developer | Backend Development & DevOps
 
