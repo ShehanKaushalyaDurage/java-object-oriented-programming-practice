@@ -45,17 +45,7 @@ Java is a **pure object-oriented language**, and OOP is fundamental for writing 
 - Objects control **how their data is accessed and modified**
 - Prevents invalid or inconsistent states
 
-### Example (from this repo)
-```java
-private double balance;
-
-public void setBalance(double amount) {
-    if (amount > 0) {
-        balance += amount;
-    }
-}
-
-What this achieves
+### What this achieves
 
 Data cannot be modified directly
 
@@ -63,7 +53,7 @@ Validation rules live inside the object
 
 Object always stays in a valid state
 
-Interview Tip
+### Interview Tip
 
 Encapsulation is not just hiding fields — it is about enforcing business rules inside the object.
 
@@ -73,7 +63,7 @@ Abstraction means:
 
 Exposing only essential behavior and hiding implementation details.
 
-Key Idea
+### Key Idea
 
 Program to interfaces, not implementations
 
@@ -87,7 +77,7 @@ public interface PaymentService {
 PaymentService service = new PaypalPayment();
 service.pay(1000);
 
-What this achieves
+### What this achieves
 
 Easy to add new implementations
 
@@ -95,7 +85,7 @@ Loose coupling
 
 High flexibility and testability
 
-Interview Tip
+### Interview Tip
 
 Abstraction allows us to change implementations without modifying client code.
 
@@ -105,7 +95,7 @@ Inheritance means:
 
 A child class automatically gets properties and behavior from a parent class.
 
-Key Idea
+### Key Idea
 
 Represents an IS-A relationship
 
@@ -122,7 +112,7 @@ public class BoxPrice extends BoxWeight {
     double cost;
 }
 
-Important Rules Demonstrated
+ ### Important Rules Demonstrated
 
 Parent constructors are called using super()
 
@@ -130,7 +120,7 @@ Child classes can access parent methods
 
 Reference type decides accessible members
 
-Interview Tip
+### Interview Tip
 
 Inheritance should be used carefully; composition is often preferred for flexibility.
 
@@ -140,7 +130,7 @@ Polymorphism means:
 
 The same method call behaves differently based on the object type.
 
-Key Idea
+### Key Idea
 
 Achieved through method overriding
 
@@ -150,7 +140,7 @@ Example (from this repo)
 Shapes shape = new Circle();
 shape.area(); // Calls Circle's implementation
 
-How It Works
+### How It Works
 
 Compile time: checks reference type
 
