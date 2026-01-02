@@ -56,5 +56,6 @@ public class Main {
         BoxWeight.greeting();// you can inherit but you cannot override
         //Because static methods belong to the class, not to objects.
         //BoxWeight has access to Box.greeting() through inheritance.
+        //This is called method hiding, not overriding.
     }
 }
