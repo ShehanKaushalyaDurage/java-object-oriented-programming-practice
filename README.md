@@ -1,24 +1,33 @@
-Here’s a **cleaned-up, professional, and interview-ready version** of your README.
-I’ve **kept your content and intent**, but improved **structure, grammar, consistency, and flow**, making it suitable for **GitHub, recruiters, and interviewers**.
+Perfect! Here’s your **fully updated GitHub-optimized README** with the **LinkedIn-author link** and professional tagline included. It’s ready to copy–paste into `README.md`.
 
 ---
 
 # Object-Oriented Programming (OOP) – Java Practical Guide
 
-This repository contains **practical Java examples** that demonstrate the **four core Object-Oriented Programming (OOP) concepts**:
+![Java](https://img.shields.io/badge/Java-17+-red?logo=java)
+![OOP](https://img.shields.io/badge/OOP-Core%20Concepts-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Level](https://img.shields.io/badge/Level-Associate%20→%20Senior-purple)
 
-1. Encapsulation
-2. Abstraction
-3. Inheritance
-4. Polymorphism
+A **hands-on Java repository** demonstrating the **four core Object-Oriented Programming (OOP) concepts** using **real-world examples** and **interview-focused explanations**.
 
-Each concept is explained using:
+---
 
-* Real-world Java code
-* Clear comments
-* Interview-focused explanations
+## 📌 Table of Contents
 
-This project is ideal for **learning OOP from fundamentals to advanced interview level**.
+* [What is Object-Oriented Programming (OOP)?](#what-is-object-oriented-programming-oop)
+* [The Four Core OOP Concepts](#the-four-core-oop-concepts)
+
+  * [Encapsulation](#1-encapsulation--data-protection--control)
+  * [Abstraction](#2-abstraction--focus-on-what-not-how)
+  * [Inheritance](#3-inheritance--code-reuse-with-an-is-a-relationship)
+  * [Polymorphism](#4-polymorphism--one-interface-many-behaviors)
+* [Additional Concepts Demonstrated](#additional-concepts-demonstrated)
+* [Why This Repository?](#why-this-repository)
+* [Recommended Learning Order](#recommended-learning-order)
+* [Final Interview Summary](#final-interview-summary)
+* [Author](#author)
 
 ---
 
@@ -42,7 +51,7 @@ OOP helps build software that is:
 * Easy to extend
 * Easy to test
 
-Java is a **pure object-oriented language**, and OOP is fundamental for writing clean, scalable, and maintainable Java applications.
+Java is a **pure object-oriented language**, and OOP is fundamental for building clean, scalable, and maintainable applications.
 
 ---
 
@@ -58,7 +67,7 @@ Java is a **pure object-oriented language**, and OOP is fundamental for writing 
 
 ### Key Ideas
 
-* Objects control **how their data is accessed and modified**
+* Objects control how their data is accessed and modified
 * Internal state is protected from invalid changes
 * Business rules live inside the object
 
@@ -68,9 +77,9 @@ Java is a **pure object-oriented language**, and OOP is fundamental for writing 
 * Validation logic is centralized
 * Objects always remain in a valid state
 
-### Tip
+### 💡 Tip
 
-Encapsulation is not just about hiding fields — it is about **enforcing business rules inside the object**.
+Encapsulation is not just hiding fields — it is about **enforcing business rules inside the object**.
 
 ---
 
@@ -102,7 +111,7 @@ service.pay(1000);
 * Loose coupling
 * High flexibility and testability
 
-### Tip
+### 💡 Tip
 
 Abstraction allows implementations to change **without modifying client code**.
 
@@ -138,9 +147,9 @@ public class BoxPrice extends BoxWeight {
 * Child classes can access parent methods
 * Reference type determines accessible members
 
-### Tip
+### 💡 Tip
 
-Inheritance should be used carefully — **composition is often preferred** for better flexibility.
+Inheritance should be used carefully — **composition is often preferred** for flexibility.
 
 ---
 
@@ -176,7 +185,7 @@ final void area() { }
 * Cannot be overridden
 * Uses compile-time binding (early binding)
 
-### Tip
+### 💡 Tip
 
 Polymorphism allows systems to be **extended without modifying existing code**.
 
@@ -197,7 +206,7 @@ BoxWeight.greeting();
 
 * `super()` ensures parent state is initialized first
 
-### Dependency Inversion (SOLID Principle)
+### Dependency Inversion (SOLID)
 
 * High-level modules depend on abstractions
 * Improves flexibility and testability
@@ -206,12 +215,12 @@ BoxWeight.greeting();
 
 ## Why This Repository?
 
-This repository is designed to help you:
+This repository is designed to:
 
-* Learn OOP from fundamentals to interview level
-* Understand how OOP concepts work together
-* See **real Java behavior**, not just definitions
-* Prepare for Java interviews (Associate → Senior)
+* Teach OOP from fundamentals to interview level
+* Show how OOP concepts work together
+* Demonstrate **real Java behavior**, not just theory
+* Help prepare for Java interviews (Associate → Senior)
 
 ---
 
@@ -244,7 +253,7 @@ Object-Oriented Programming is about modeling real-world behavior using objects 
 
 ## Author
 
-**Shehan Kaushalya**
-
+[**Shehan Kaushalya**](**https://www.linkedin.com/in/shehankaushalya**)
+Software Engineer | Java & Spring Boot Developer | Backend Development & DevOps
 
 
