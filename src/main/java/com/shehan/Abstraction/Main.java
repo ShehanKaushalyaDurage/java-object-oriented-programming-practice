@@ -20,7 +20,11 @@ public class Main {
         PaymentService service2 = new CreditCardPayment();
         service2.pay(30000);
 
-
+        //No concrete dependency
+        //Easily testable
+        PaymentService service3 = new PaypalPayment();
+        PaymentProcessor processor = new PaymentProcessor(service3);
+        processor.process(10000);
     }
 
 
