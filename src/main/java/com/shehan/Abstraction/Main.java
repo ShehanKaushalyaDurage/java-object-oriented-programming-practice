@@ -8,5 +8,10 @@ public class Main {
         //acc.balance = -1000000; // invalid but allowed
         //System.out.println("The balance is " + acc.balance);
         //Problem: Anyone can change balance ,No validation
+
+        BankAccount acc = new BankAccount();
+        acc.setBalance(1000);
+        System.out.println(acc.getBalance());
+
     }
 }
