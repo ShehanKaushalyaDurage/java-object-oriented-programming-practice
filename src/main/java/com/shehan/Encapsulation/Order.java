@@ -1,5 +1,6 @@
-package com.shehan.Abstraction;
+package com.shehan.Encapsulation;
 
+//Encapsulation at System Boundary
 public class Order {
 
     private final double amount;

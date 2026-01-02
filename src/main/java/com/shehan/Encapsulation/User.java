@@ -1,5 +1,6 @@
-package com.shehan.Abstraction;
+package com.shehan.Encapsulation;
 
+//Encapsulation with Business Rules
 public class User {
 
     private String email;

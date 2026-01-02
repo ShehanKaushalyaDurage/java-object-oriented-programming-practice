@@ -1,4 +1,4 @@
-package com.shehan.Abstraction;
+package com.shehan.Encapsulation;
 
 //Encapsulation -> Protect data
 public class Main {
