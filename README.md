@@ -23,7 +23,7 @@ A **hands-on Java repository** demonstrating the **four core Object-Oriented Pro
 * [Additional Concepts Demonstrated](#additional-concepts-demonstrated)
 * [Why This Repository?](#why-this-repository)
 * [Recommended Learning Order](#recommended-learning-order)
-* [Final Interview Summary](#final-interview-summary)
+* [Final Summary](#final-interview-summary)
 * [Author](#author)
 
 ---
