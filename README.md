@@ -1,6 +1,3 @@
-Perfect! Here’s your **fully updated GitHub-optimized README** with the **LinkedIn-author link** and professional tagline included. It’s ready to copy–paste into `README.md`.
-
----
 
 # Object-Oriented Programming (OOP) – Java Practical Guide
 
