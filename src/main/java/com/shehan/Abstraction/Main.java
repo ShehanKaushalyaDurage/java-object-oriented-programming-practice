@@ -34,6 +34,16 @@ public class Main {
         //High-level module: PaymentProcessor
         //Low-level modules: PaypalPayment, CreditCardPayment
         //Both depend on abstraction (PaymentService)
+
+
+
+
+
+        //Common Questions
+        //Why use interface instead of abstract class? = Interfaces allow multiple implementations and promote loose coupling.
+        //How does abstraction improve testability? = We can inject a mock implementation of PaymentService.
+        //Is abstraction same as encapsulation? = No. Encapsulation protects state, abstraction hides implementation details.
+        //Where is polymorphism used? =When PaymentService reference points to different implementations at runtime.
     }
 
 
