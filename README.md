@@ -249,8 +249,8 @@ Object-Oriented Programming is about modeling real-world behavior using objects 
 ---
 
 ## Author
+Shehan Kaushalya
 
-[**Shehan Kaushalya**](**https://www.linkedin.com/in/shehankaushalya**)
 Software Engineer | Java & Spring Boot Developer | Backend Development & DevOps
 
 
