@@ -8,6 +8,6 @@ public class Main {
     //2. You press accelerator
     //3. You don’t care about engine internals
 
-
+    Vehicle vehicle = new Class();
 
 }
