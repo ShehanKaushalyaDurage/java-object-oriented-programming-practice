@@ -6,6 +6,10 @@ public class BoxWeight extends Box {
 
     double weight;
 
+    static void greeting(){
+        System.out.println("Greeting");
+    }
+
     void weight() {
         System.out.println("Box Weight is: " + this.weight);
     }
@@ -39,4 +43,6 @@ public class BoxWeight extends Box {
 
         this.weight = weight; //Child class variable (BoxWeight.weight)
     }
+
+
 }

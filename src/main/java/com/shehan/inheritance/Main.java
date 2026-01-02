@@ -52,5 +52,9 @@ public class Main {
 
         // * Important = Parent reference cannot access child-specific methods
 
+        BoxWeight box = new BoxWeight();
+        BoxWeight.greeting();// you can inherit but you cannot override
+        //Because static methods belong to the class, not to objects.
+        //BoxWeight has access to Box.greeting() through inheritance.
     }
 }
