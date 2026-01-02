@@ -68,7 +68,7 @@ Java is a **pure object-oriented language**, and OOP is fundamental for writing 
 * Validation logic is centralized
 * Objects always remain in a valid state
 
-### Interview Tip
+### Tip
 
 Encapsulation is not just about hiding fields — it is about **enforcing business rules inside the object**.
 
@@ -102,7 +102,7 @@ service.pay(1000);
 * Loose coupling
 * High flexibility and testability
 
-### Interview Tip
+### Tip
 
 Abstraction allows implementations to change **without modifying client code**.
 
@@ -138,7 +138,7 @@ public class BoxPrice extends BoxWeight {
 * Child classes can access parent methods
 * Reference type determines accessible members
 
-### Interview Tip
+### Tip
 
 Inheritance should be used carefully — **composition is often preferred** for better flexibility.
 
@@ -176,7 +176,7 @@ final void area() { }
 * Cannot be overridden
 * Uses compile-time binding (early binding)
 
-### Interview Tip
+### Tip
 
 Polymorphism allows systems to be **extended without modifying existing code**.
 
@@ -231,7 +231,7 @@ This repository is designed to help you:
 
 ---
 
-## Final Interview Summary
+## Final Summary
 
 Object-Oriented Programming is about modeling real-world behavior using objects that:
 
@@ -245,14 +245,6 @@ Object-Oriented Programming is about modeling real-world behavior using objects 
 ## Author
 
 **Shehan Kaushalya**
-Java | OOP | Backend Fundamentals
 
----
 
-If you want, I can also:
 
-* 🔹 Make this **GitHub-optimized (badges, table of contents)**
-* 🔹 Rewrite it for **resume / portfolio usage**
-* 🔹 Add **example folder structure**
-
-Just tell me 👍
