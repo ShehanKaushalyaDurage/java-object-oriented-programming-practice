@@ -5,15 +5,18 @@ public class BankAccount {
     //private - hide data
     private double balance;
 
-    //public methods - controlled access
+    // controlled read access
     public double getBalance() {
         return balance;
     }
 
-    //public methods - controlled access
+    // controlled write access
     public void setBalance(double amount) {
         if (amount  > 0) {
             balance += amount;
         }
     }
+
+    //Encapsulation ensures that the BankAccount object controls its own balance.
+    //External code cannot put the account into an invalid state because all updates go through validated methods.
 }

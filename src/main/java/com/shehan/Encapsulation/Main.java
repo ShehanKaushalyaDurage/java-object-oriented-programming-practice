@@ -1,6 +1,7 @@
 package com.shehan.Encapsulation;
 
 //Encapsulation -> Protect data
+// Encapsulation is controlling how an object’s state is created, accessed, and modified, so the object cannot be put into an invalid state.
 public class Main {
     public static void main(String[] args) {
 
