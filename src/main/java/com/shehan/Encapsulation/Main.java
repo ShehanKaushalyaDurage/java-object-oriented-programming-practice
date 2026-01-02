@@ -26,5 +26,13 @@ public class Main {
 
         Order order = new Order(100);
         System.out.println("Order amount: " + order.getAmount());
+
+
+        //Common Questions
+
+        // Why not make fields public? = Public fields break encapsulation and allow invalid states.
+        // Why put validation inside setters or constructors? = To ensure the object always maintains its invariants.
+        // Why use final in Order? = To make the object immutable and prevent state corruption after creation.
+        // Is this only encapsulation? = Encapsulation is the main concept, but it also uses access control, immutability, and single responsibility.
     }
 }
