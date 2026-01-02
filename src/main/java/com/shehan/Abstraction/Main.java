@@ -8,6 +8,20 @@ public class Main {
     //2. You press accelerator
     //3. You don’t care about engine internals
 
-    Vehicle vehicle = new Class();
+    public static void main(String[] args) {
+        Vehicle vehicle = new Car();
+        vehicle.start();
+
+        //Open/Closed Principle
+        //Easy to add new payment methods
+        PaymentService service = new PaypalPayment();
+        service.pay(20000);
+
+        PaymentService service2 = new CreditCardPayment();
+        service2.pay(30000);
+
+
+    }
+
 
 }
