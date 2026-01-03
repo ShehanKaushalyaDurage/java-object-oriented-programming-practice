@@ -1,4 +1,5 @@
 package com.shehan.AbstractDemo;
 
-public class Parent {
+public abstract class Parent {
+    abstract void career();
 }
