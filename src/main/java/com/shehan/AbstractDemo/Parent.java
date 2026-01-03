@@ -1,5 +1,6 @@
 package com.shehan.AbstractDemo;
 
 public abstract class Parent {
-    abstract void career();
+    abstract void career(String name);
+    abstract void partner(String name, int age);
 }
