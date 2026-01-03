@@ -2,8 +2,6 @@ package com.shehan.AbstractDemo;
 
 public class Main {
     public static void main(String[] args) {
-        Son son = new Son();
-        son.career();
 
         /*
           S.B.S
@@ -14,9 +12,16 @@ public class Main {
           5.Son’s method is executed
         */
 
+        //Son son = new Son();
+        //son.career();
+        //Daughter daughter = new Daughter();
+        //daughter.career();
 
-        Daughter doughter = new Daughter();
-        doughter.career();
+        //Better (Polymorphism + Abstraction)
+        Parent son = new Son();
+        Parent daughter = new Daughter();
 
+        son.career();
+        daughter.career();
     }
 }
