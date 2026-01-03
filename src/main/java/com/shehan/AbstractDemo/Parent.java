@@ -25,5 +25,5 @@ public abstract class Parent {
     //Important point
     /*We cannot create an object of an abstract class because it may contain abstract methods that are not implemented,
     not because abstract constructors are not allowed.*/
-    
+
 }
