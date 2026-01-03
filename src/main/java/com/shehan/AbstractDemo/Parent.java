@@ -10,6 +10,7 @@ public abstract class Parent {
 
     //If you don’t initialize it: Java will give a compile-time error: variable value might not have been initialized
     final int Value;
+    //Every child of Parent MUST have this value, and it MUST NOT change.
 
     //Abstract Class CAN Have a Constructor
     public Parent(int age) {
