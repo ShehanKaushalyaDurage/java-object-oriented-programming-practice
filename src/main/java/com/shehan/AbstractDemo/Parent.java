@@ -8,9 +8,13 @@ public abstract class Parent {
 
     int age;
 
+    //If you don’t initialize it: Java will give a compile-time error: variable value might not have been initialized
+    final int Value;
+
     //Abstract Class CAN Have a Constructor
     public Parent(int age) {
         this.age = age;
+        Value = 10000000;
     }
 
     //abstract Parent(); // NOT ALLOWED
