@@ -1,6 +1,6 @@
 package com.shehan.AbstractDemo;
 
-public class Doughter extends Parent {
+public class Daughter extends Parent {
     @Override
     void career() {
         System.out.println("I'm going to be a Doctor  ");

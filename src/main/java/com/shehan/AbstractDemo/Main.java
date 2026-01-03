@@ -5,7 +5,7 @@ public class Main {
         Son son = new Son();
         son.career();
 
-        Doughter doughter = new Doughter();
+        Daughter doughter = new Daughter();
         doughter.career();
 
     }
