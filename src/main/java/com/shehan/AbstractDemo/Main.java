@@ -18,10 +18,14 @@ public class Main {
         //daughter.career();
 
         //Better (Polymorphism + Abstraction)
-        Parent son = new Son();
-        Parent daughter = new Daughter();
+        Parent son = new Son(20);
+        Parent daughter = new Daughter(30);
 
         son.career();
         daughter.career();
+
+        //Abstract constructors do NOT exist
+        //Abstract classes CAN have constructors
+        //Parent mom =new Parent();
     }
 }

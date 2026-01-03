@@ -1,6 +1,10 @@
 package com.shehan.AbstractDemo;
 
 public class Son extends Parent {
+    public Son(int age) {
+        super(age);
+    }
+
     @Override //Ensures correct method overriding
     void career() {
         System.out.println("I'm going to be a Politician");
