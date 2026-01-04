@@ -4,7 +4,7 @@ package com.shehan.interfaces;
 //Java does NOT allow: class Car extends Engine, Brake
 //But Java DOES allow: class Car implements Engine, Brake
 
-public class Car implements Engine,Brake {
+public class Car implements Engine,Brake,Media{
     @Override
     public void brake() {
         System.out.println("Braking a Car");

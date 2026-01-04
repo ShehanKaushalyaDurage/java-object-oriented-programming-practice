@@ -19,5 +19,8 @@ public class Main {
 
         //Engine does not know HOW to start/stop/accelerate
         //Car car2 = new Engine();
+
+        Media carMedia = new Car();
+        carMedia.stop();
     }
 }
