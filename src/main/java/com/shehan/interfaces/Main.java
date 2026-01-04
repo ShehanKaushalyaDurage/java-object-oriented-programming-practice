@@ -21,6 +21,6 @@ public class Main {
         //Car car2 = new Engine();
 
         Media carMedia = new Car();
-        carMedia.stop();
+        carMedia.stop();//The method of the actual object at runtime
     }
 }
