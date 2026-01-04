@@ -1,5 +1,9 @@
 package com.shehan.interfaces;
 
+//Multiple Inheritance
+//Java does NOT allow: class Car extends Engine, Brake
+//But Java DOES allow: class Car implements Engine, Brake
+
 public class Car implements Engine,Brake {
     @Override
     public void brake() {
