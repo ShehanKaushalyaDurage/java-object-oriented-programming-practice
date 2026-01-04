@@ -2,7 +2,10 @@ package com.shehan.interfaces;
 
 public class NiceCar {
 
+    //HAS-A relationship
+    //Composition
     private Engine engine;
+    private Media media = new CDPlayer();
 
     public NiceCar() {
         engine = new PowerEngine();
@@ -10,5 +13,25 @@ public class NiceCar {
 
     public NiceCar(Engine engine) {
         this.engine = engine;
+    }
+
+    public void start(){
+        engine.start();
+    }
+
+    public void stop(){
+        engine.stop();
+    }
+
+    public void startMusic(){
+        media.start();
+    }
+
+    public void stopMusic(){
+        media.stop();
+    }
+
+    public void upgradeEngine(){
+        this.engine = new ElectricEngine();
     }
 }

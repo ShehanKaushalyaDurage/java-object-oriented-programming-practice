@@ -3,11 +3,11 @@ package com.shehan.interfaces;
 public class Main {
     public static void main(String[] args) {
         //Full Access via Concrete Class
-        Car car = new Car();
-        car.accelerate();
-        car.start();
-        car.stop();
-        car.brake();
+        //Car car = new Car();
+        //car.accelerate();
+        //car.start();
+        //car.stop();
+        //car.brake();
 
         //Car IS-A Brake
         //Java only allows methods declared in the reference type
@@ -20,7 +20,12 @@ public class Main {
         //Engine does not know HOW to start/stop/accelerate
         //Car car2 = new Engine();
 
-        Media carMedia = new Car();
-        carMedia.stop();//The method of the actual object at runtime
+        //Media carMedia = new Car();
+        //carMedia.stop();//The method of the actual object at runtime
+
+        NiceCar niceCar = new NiceCar();
+        niceCar.start();
+        niceCar.upgradeEngine();
+        niceCar.start();
     }
 }
