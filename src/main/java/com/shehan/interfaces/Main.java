@@ -17,6 +17,7 @@ public class Main {
         //brake.brake();
         //brake.start();
 
-        Car car2 = new Engine();
+        //Engine does not know HOW to start/stop/accelerate
+        //Car car2 = new Engine();
     }
 }
